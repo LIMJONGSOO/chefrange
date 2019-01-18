@@ -1,0 +1,28 @@
+import React from 'react';
+import './Footer.css';
+
+const Footer = () => (
+    <footer className="Footer">
+        <ul className="info">
+            <li>HomeTechSystem</li>
+            <li><span>대표이사 :</span>임만규</li>
+        </ul>
+        <ul className="info">
+            <li>서울특별시 양천구 가로공원로55길 14</li>
+            <li><span>TEL </span>02) 2065-0583</li>
+        </ul>
+        <ul className="info">
+            <li><span>FAX </span>02) 2065-0584</li>
+            <li><span>E-mail</span> lim6950@naver.com</li>
+        </ul>
+        <ul className="info">
+            <li>사업자 등록번호</li>
+        </ul>
+        <ul className="copyright">
+            <li>Copyright © 2018 ChefRange</li>
+            <li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+        </ul>
+    </footer>
+)
+
+export default Footer;

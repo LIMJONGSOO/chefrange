@@ -8,12 +8,7 @@ class App extends Component {
     return (
       <div className="App">
         <Header/>
-        <header className="App-header">
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <Main/>
-        </header>
+        <Main/>
         <Footer/>
       </div>
     );

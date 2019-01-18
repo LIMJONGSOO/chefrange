@@ -9,7 +9,7 @@ import imgCustomer from '../../images/icon-customer.png';
 const Main = () => (
   <div>
     <div className="body">
-      <img src={ChefMain} alt=""></img>
+      <img className="backgroundImg" src={ChefMain} alt=""></img>
     </div>
     <div className="container">
       <div className="info">

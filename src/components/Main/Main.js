@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {Component} from 'react';
 import './Main.css';
 import ChefMain from '../../images/chef-img01.jpg';
 import imgFind from '../../images/icon-find.png';
@@ -6,7 +6,7 @@ import imgQuestion from '../../images/icon-question.png';
 import imgService from '../../images/icon-service.png';
 import imgCustomer from '../../images/icon-customer.png';
 
-const Main = () => (
+const Main = ({onClick}) => (
   <div>
     <div className="body">
       <img className="backgroundImg" src={ChefMain} alt=""></img>

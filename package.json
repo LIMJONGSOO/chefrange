@@ -25,6 +25,17 @@
   "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
   "main": "index.js",
   "devDependencies": {},
-  "author": "",
-  "license": "ISC"
+  "author": "LIMJONGSOO",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LIMJONGSOO/chefrange.git"
+  },
+  "keywords": [
+    "chef"
+  ],
+  "bugs": {
+    "url": "https://github.com/LIMJONGSOO/chefrange/issues"
+  },
+  "homepage": "https://github.com/LIMJONGSOO/chefrange#readme"
 }

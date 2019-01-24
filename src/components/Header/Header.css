@@ -37,6 +37,7 @@ nav {
 
 .icon img{
     height: 100%;
+    width: auto;
   }
 
 .info-item{ 

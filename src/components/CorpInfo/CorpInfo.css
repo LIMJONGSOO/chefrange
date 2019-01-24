@@ -1,0 +1,55 @@
+.title{
+  border-bottom: 1px solid #000;
+  color: #1c1c1c;
+}
+
+.title h3{
+  font-family: NanumGothic;
+  font-weight: bold;
+}
+
+.title_link{
+  color: #1c1c1c;
+  width:100%;
+}
+
+.title_link ul{
+  margin: 0;
+  padding: 20px 0 50px 0;
+}
+
+.title_link ul li{
+  float: left;
+  padding-right: 30px;
+}
+
+.title_link ul li a{
+  color: #1c1c1c;
+}
+
+.title_link ul li.color a{
+  color: #999;
+}
+
+.companyInfo .inner{
+  width: 100%;
+}
+
+.center{
+  padding: 20px 0 25px 0;
+  text-align: center;
+}
+
+.center_title{
+  font: 0.75em "나눔고딕",NanumGothic;
+  color: #1c1c1c;
+  margin-bottom: 40px;
+}
+
+.center_desc{
+  text-align: center;
+  font-size: 15px;
+  line-height: 30px;
+  font-family: NanumGothic;
+  color: #000;  
+}

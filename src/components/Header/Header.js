@@ -12,7 +12,7 @@ const Header = ({onClick, corpCls, rangeCls, contactCls}) => (
             <span className="icon-bar"></span>
             <span className="icon-bar"></span>
         </button>
-        <a className="navbar-brand" href="#">
+        <a className="navbar-brand" href="#" onClick={() => onClick('main')}>
             <img src={logo } alt="Chefrange"></img>
         </a>
         </div>

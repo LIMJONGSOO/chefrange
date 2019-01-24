@@ -1,9 +1,21 @@
 .Footer {
-    padding: 6em 0;
-    text-align: center;
+    padding: 2em 0  2em 0;
+    text-align: left;
     background-image: linear-gradient(to bottom,#f8f8f8 0,#fff 100%);
   }
   
+    .Footer .leftAlign{
+      float: left;
+      width : 60%;
+      text-align: left;
+    }
+
+    .Footer .rightAlign{
+      float: right;
+      width : 40%;
+      text-align: right;
+    }
+
     .Footer .icons .icon.alt {
       text-decoration: none;
     }
@@ -24,11 +36,11 @@
   
     .Footer .copyright {
       color: rgba(255, 255, 255, 0.5);
-      font-size: 0.8em;
+      font-size: 1em;
       line-height: 1em;
       margin: 2em 0 0 0;
       padding: 0;
-      text-align: center;
+      text-align: left;
     }
   
       .Footer .copyright li {
@@ -50,11 +62,11 @@
         }
         
     .Footer .info {
-      font-size: 0.8em;
+      font-size: 1em;
       line-height: 1em;
       margin: 10px 0 0 0;
       padding: 0;
-      text-align: center;
+      text-align: left;
     }
   
       .Footer .info li {

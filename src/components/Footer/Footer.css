@@ -16,10 +16,35 @@
       text-align: right;
     }
 
+    .Footer .rightAlign ul{
+      text-align: right;
+    }
+
     .Footer .icons .icon.alt {
       text-decoration: none;
     }
+    
+    @media (max-width: 767px) {
+      .Footer .leftAlign{
+        font-size: 10px;
+        float: left;
+        width : 100%;
+        text-align: left;
+      }
   
+      .Footer .rightAlign{
+        font-size: 10px;
+        float: left;
+        width : 100%;
+        text-align: left;
+      }
+
+      .Footer .rightAlign ul{
+        text-align: left;
+      }
+
+    }
+
       .Footer .icons .icon.alt:before {
         -moz-osx-font-smoothing: grayscale;
         -webkit-font-smoothing: antialiased;

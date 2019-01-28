@@ -11,13 +11,13 @@ class Body extends Component {
     this.state = {
         menuId: 'main',
         corpCls: '',
-        rangeCls: '',
+        rangeCls: 'dropdown',
         contactCls: ''
     };
   }
 
   componentDidMount() {
-      this.fetchPostInfo(2);
+      
   }
 
   showWarning = () => {
@@ -79,19 +79,19 @@ class Body extends Component {
 
     if(menuId==='corpInfo'){
         corpCls = 'active';
-        rangeCls = '';
+        rangeCls = 'dropdown';
         contactCls = '';
     }else if(menuId==='rangeInfo'){
         corpCls = '';
-        rangeCls = 'active';
+        rangeCls = 'active dropdown';
         contactCls = '';
     }else if(menuId==='contactInfo'){
         corpCls = '';
-        rangeCls = '';
+        rangeCls = 'dropdown';
         contactCls = 'active';
     }else{
         corpCls = '';
-        rangeCls = '';
+        rangeCls = 'dropdown';
         contactCls = '';
     }
 

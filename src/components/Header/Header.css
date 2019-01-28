@@ -18,6 +18,11 @@ nav {
     height:60%;
   }
 
+.nav > li > a{
+  margin-left: 0;
+  margin-right: 40px;
+}
+
 @media (max-width: 767px) {
   .desc{
       height:60%;
@@ -27,6 +32,9 @@ nav {
     }
   .desc p{
       font-size: 0.8em;
+    }
+  .nav li a{
+      margin-right: 0px;
     }
   }
   

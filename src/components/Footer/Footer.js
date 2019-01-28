@@ -27,6 +27,13 @@ const Footer = () => (
             </div>
             <div  className="rightAlign">
                 <h3>고객센터 <strong>02-2065-0583</strong></h3>
+                <ul className="info">
+                    <li>평일 9:00-18:00</li>
+                    <li>주말.공휴일 제외</li>
+                </ul>
+                <ul className="info">
+                    <li>점심시간 12:00-13:00</li>
+                </ul>
             </div>
         </div>
     </footer>

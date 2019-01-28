@@ -8,10 +8,8 @@ import imgCustomer from '../../images/icon-customer.png';
 
 const Main = ({onClick}) => (
   <div>
-    <div className="body">
-      <img className="backgroundImg" src={ChefMain} alt=""></img>
-    </div>
     <div className="container">
+    <img className="backgroundImg" src={ChefMain} alt=""></img>
       <div className="info">
         <div className="info-row">
           <div className="info-item">
@@ -29,7 +27,7 @@ const Main = ({onClick}) => (
             </a>
           </div>
           <div className="info-item bg-blue">
-            <a href="/Faq">
+            <a href="/Faq" className="gray">
               <div className="desc">
                 <h4>자주 묻는 질문</h4>
                 <p>
@@ -57,7 +55,7 @@ const Main = ({onClick}) => (
             </a>
           </div>
           <div className="info-item bg-blue">
-            <a href="/Customer">
+            <a href="/Customer" className="gray">
               <div className="desc">
                 <h4>고객의 소리</h4>
                 <p>

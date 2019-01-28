@@ -6,6 +6,7 @@ import Container from './Container/Container';
 import CorpInfo from './CorpInfo/CorpInfo';
 import RangeInfo from './RangeInfo/RangeInfo';
 import ContactInfo from './ContactInfo/ContactInfo';
+import CorpInfoContainer from './CorpInfoContainer/CorpInfoContainer';
 
 export {
     Footer,
@@ -15,5 +16,6 @@ export {
     Container,
     CorpInfo,
     RangeInfo,
-    ContactInfo
+    ContactInfo,
+    CorpInfoContainer
 };

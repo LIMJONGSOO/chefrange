@@ -1,3 +1,8 @@
+body{
+  font-family:'Nanum Barun Gothic';
+  word-break: keep-all;
+}
+
 li{
   list-style: none;
 }
@@ -10,6 +15,19 @@ img{
   font-weight: bold;
 }
 
+.width
 .gray{
   color: #eee;
+}
+
+.red{
+  color: rgb(247, 0, 0);
+}
+
+.bgGray{
+  background-color: #eee;
+}
+
+.left{
+  text-align: left;
 }

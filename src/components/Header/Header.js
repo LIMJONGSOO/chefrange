@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import './Header.css';
-import logo from '../../images/logo.JPG';
+import logo from '../../images/logo.png';
 
 const Header = ({onClick, corpCls, rangeCls, contactCls}) => (
     <nav className="navbar navbar-default navbar-static-top">
@@ -23,15 +23,15 @@ const Header = ({onClick, corpCls, rangeCls, contactCls}) => (
                 <a href="#" className="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="true">전기레인지 <span class="caret"></span></a>
                 <ul className="dropdown-menu" role="menu">
                     <li className="dropdown-header">3구 전기레인지</li>
-                    <li><a href="#"  onClick={() => onClick('rangeInfo')}>Action</a></li>
-                    <li><a href="#"  onClick={() => onClick('rangeInfo')}>Another action</a></li>
-                    <li><a href="#"  onClick={() => onClick('rangeInfo')}>Something else here</a></li>
+                    <li><a href="#"  onClick={() => onClick('rangeInfo','HTS805')}>HTS805</a></li>
+                    <li><a href="#"  onClick={() => onClick('rangeInfo','HTS804')}>HTS804</a></li>
+                    <li><a href="#"  onClick={() => onClick('rangeInfo','HTS803')}>HTS803</a></li>
                     <li className="divider"></li>
                     <li className="dropdown-header">2구 전기레인지</li>
-                    <li><a href="#"  onClick={() => onClick('rangeInfo')}>Action</a></li>
+                    <li><a href="#"  onClick={() => onClick('rangeInfo','HTS802')}>HTS802</a></li>
                     <li className="divider"></li>
                     <li className="dropdown-header">1구 전기레인지</li>
-                    <li><a href="#"  onClick={() => onClick('rangeInfo')}>Action</a></li>
+                    <li><a href="#"  onClick={() => onClick('rangeInfo','HTS801')}>HTS801</a></li>
                 </ul>
             </li>
             <li className={contactCls}><a href="#contact" onClick={() => onClick('contactInfo')}>고객지원</a></li>

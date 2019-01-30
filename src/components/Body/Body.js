@@ -10,6 +10,7 @@ class Body extends Component {
     // initializes component state
     this.state = {
         menuId: 'main',
+        rangeName : '',
         corpCls: '',
         rangeCls: 'dropdown',
         contactCls: ''
@@ -74,11 +75,12 @@ class Body extends Component {
   }
 
 
-  handleMenuClick = (menuId) => {
+  handleMenuClick = (menuId, rangeName) => {
     let corpCls, rangeCls, contactCls ;
 
     if(menuId==='corpInfo'){
         corpCls = 'active';
+        rangeName = '';
         rangeCls = 'dropdown';
         contactCls = '';
     }else if(menuId==='rangeInfo'){
@@ -87,16 +89,19 @@ class Body extends Component {
         contactCls = '';
     }else if(menuId==='contactInfo'){
         corpCls = '';
+        rangeName = '';
         rangeCls = 'dropdown';
         contactCls = 'active';
     }else{
         corpCls = '';
+        rangeName = '';
         rangeCls = 'dropdown';
         contactCls = '';
     }
 
     this.setState({
         menuId,
+        rangeName,
         corpCls,
         rangeCls,
         contactCls
@@ -104,7 +109,7 @@ class Body extends Component {
   }
 
   render() {
-    const {menuId,corpCls, rangeCls, contactCls} = this.state;
+    const {menuId, rangeName, corpCls, rangeCls, contactCls} = this.state;
 
     return (
       <div>
@@ -117,6 +122,7 @@ class Body extends Component {
         />
         <Container 
           menuId={menuId}
+          rangeName={rangeName}
         />
       </div>
     )

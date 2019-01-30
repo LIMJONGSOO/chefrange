@@ -36,7 +36,7 @@ class CorpInfo extends Component {
       submenuId,
       aboutUsCls,
       ceoMsgCls,
-      locationCls,
+      locationCls
     });
   }
 

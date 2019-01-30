@@ -4,9 +4,12 @@ import Main from './Main/Main';
 import Body from './Body/Body';
 import Container from './Container/Container';
 import CorpInfo from './CorpInfo/CorpInfo';
+import CorpInfoContainer from './CorpInfo/CorpInfoContainer/CorpInfoContainer';
 import RangeInfo from './RangeInfo/RangeInfo';
+import RangeInfoContainer from './RangeInfo/RangeInfoContainer/RangeInfoContainer';
 import ContactInfo from './ContactInfo/ContactInfo';
-import CorpInfoContainer from './CorpInfoContainer/CorpInfoContainer';
+import ContactInfoContainer from './ContactInfo/ContactInfoContainer/ContactInfoContainer';
+
 
 export {
     Footer,
@@ -15,7 +18,9 @@ export {
     Body,
     Container,
     CorpInfo,
+    CorpInfoContainer,
     RangeInfo,
+    RangeInfoContainer,
     ContactInfo,
-    CorpInfoContainer
+    ContactInfoContainer
 };

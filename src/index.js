@@ -1,7 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import './bootstrap.css';
+import './css/bootstrap.css';
+import './css/nanumbarungothic.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 

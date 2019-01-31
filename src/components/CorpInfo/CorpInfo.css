@@ -25,6 +25,7 @@
 
 .title_link ul li a{
   color: #1c1c1c;
+  text-decoration:none !important;
 }
 
 .title_link ul li.color a{

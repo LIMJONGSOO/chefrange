@@ -7,10 +7,10 @@ class RangeInfo extends Component {
     return (
       <div className="container">
         <div className="title">
-          <h3>{this.props.rangeName} 전기레인지</h3>
+          <h3>{this.props.subMenuId} 전기레인지</h3>
         </div>
         <RangeInfoContainer
-          rangeName={this.props.rangeName}
+          subMenuId={this.props.subMenuId}
         />
       </div>
     )

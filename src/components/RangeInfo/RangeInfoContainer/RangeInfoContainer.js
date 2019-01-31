@@ -6,7 +6,7 @@ class RangeInfoContainer extends Component {
     render() {
         let imgRange;
 
-        if(this.props.rangeName==='HTS801'){
+        if(this.props.subMenuId==='HTS801'){
             imgRange = HTS801;
         }
 
@@ -14,7 +14,7 @@ class RangeInfoContainer extends Component {
             <div className="rangeInfo">
                 <div className="inner">
                     <div>
-                        <div><img src={imgRange} alt={this.props.rangeName}></img></div>
+                        <div><img src={imgRange} alt={this.props.subMenuId}></img></div>
                     </div>
                 </div>   
             </div>

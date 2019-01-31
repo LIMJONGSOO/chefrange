@@ -9,14 +9,13 @@ class ContactInfo extends Component {
     super();
     // initializes component state
     this.state = {
-        submenuId: 'built',
+        submenuId: props.subMenuId,
         builtCls: 'bold',
         faqCls: '',
         serviceCls: '',
         customerCls: ''
     };
   }
-
 
   handleSubMenuClick = (submenuId) => {
     let builtCls, faqCls, serviceCls, customerCls;
@@ -53,7 +52,7 @@ class ContactInfo extends Component {
 
   render() {
     const {submenuId, builtCls, faqCls, serviceCls, customerCls} = this.state;
-
+    
     return (
       <div className="container">
         <div className="title">

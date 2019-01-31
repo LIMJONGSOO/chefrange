@@ -13,7 +13,7 @@ const Main = ({onClick}) => (
       <div className="info">
         <div className="info-row">
           <div className="info-item">
-            <a href="/Built">
+            <a href="#" onClick={() => onClick('contactInfo','built')}>
               <div className="desc">
                 <h4>설치 사례</h4>
                 <p>
@@ -27,7 +27,7 @@ const Main = ({onClick}) => (
             </a>
           </div>
           <div className="info-item bg-blue">
-            <a href="/Faq" className="gray">
+            <a href="#" onClick={() => onClick('contactInfo','faq')}>
               <div className="desc">
                 <h4>자주 묻는 질문</h4>
                 <p>
@@ -41,7 +41,7 @@ const Main = ({onClick}) => (
             </a>
           </div>
           <div className="info-item">
-            <a href="/Service">
+            <a href="#" onClick={() => onClick('contactInfo','service')}>
               <div className="desc">
                 <h4>서비스 접수 및 이용안내</h4>
                 <p>
@@ -55,7 +55,7 @@ const Main = ({onClick}) => (
             </a>
           </div>
           <div className="info-item bg-blue">
-            <a href="/Customer" className="gray">
+            <a href="#" onClick={() => onClick('contactInfo','customer')} className="gray">
               <div className="desc">
                 <h4>고객의 소리</h4>
                 <p>

@@ -7,11 +7,11 @@ import { ContactInfo } from '../../components';
 class Container extends Component {
     
   render() {
-      if(this.props.menuId==='corpInfo') return <CorpInfo/>;
-      if(this.props.menuId==='rangeInfo') return <RangeInfo rangeName={this.props.rangeName}/>;
-      if(this.props.menuId==='contactInfo') return <ContactInfo/>;
+      if(this.props.menuId==='corpInfo') return <CorpInfo onClick={this.props.onClick} subMenuId={this.props.subMenuId}/>;
+      if(this.props.menuId==='rangeInfo') return <RangeInfo onClick={this.props.onClick} subMenuId={this.props.subMenuId}/>;
+      if(this.props.menuId==='contactInfo') return <ContactInfo onClick={this.props.onClick} subMenuId={this.props.subMenuId}/>;
       return (
-        <Main/>
+        <Main onClick={this.props.onClick}/>
       );
   }
 }

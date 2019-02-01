@@ -17,27 +17,41 @@ class ContactInfo extends Component {
     };
   }
 
-  handleSubMenuClick = (submenuId) => {
-    let builtCls, faqCls, serviceCls, customerCls;
-    if(submenuId==='built'){
-      builtCls = 'bold';
-      faqCls = '';
-      serviceCls = '';
-      customerCls = '';
-    }else if(submenuId==='faq'){
-      builtCls = '';
+  componentWillMount() {
+    let builtCls ='', 
+        faqCls = '', 
+        serviceCls = '',
+        customerCls = '';
+    if(this.props.subMenuId==='faq'){
       faqCls = 'bold';
-      serviceCls = '';
-      customerCls = '';
-    }else if(submenuId==='service'){
-      builtCls = '';
-      faqCls = '';
+    }else if(this.props.subMenuId==='service'){
       serviceCls = 'bold';
-      customerCls = '';
+    }else if(this.props.subMenuId==='customer'){
+      customerCls = 'bold';
     }else{
-      builtCls = '';
-      faqCls = '';
-      serviceCls = '';
+      builtCls = 'bold';
+    }
+
+    this.setState({
+      builtCls,
+      faqCls,
+      serviceCls,
+      customerCls
+    });
+  }
+
+  handleSubMenuClick = (submenuId) => {
+    let builtCls ='', 
+        faqCls = '', 
+        serviceCls = '',
+        customerCls = '';
+    if(submenuId==='customer'){
+      builtCls = 'bold';
+    }else if(submenuId==='faq'){
+      faqCls = 'bold';
+    }else if(submenuId==='service'){
+      serviceCls = 'bold';
+    }else{
       customerCls = 'bold';
     }
 

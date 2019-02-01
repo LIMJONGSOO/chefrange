@@ -20,7 +20,7 @@ const Footer = () => (
                 <ul className="info">
                     <li>사업자 등록번호</li>
                 </ul>
-                <ul className="copyright">
+                <ul className="info">
                     <li>Copyright © 2018 ChefRange</li>
                     <li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
                 </ul>

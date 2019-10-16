@@ -3,21 +3,6 @@ nav {
     text-align: center;
   }
 
-.info{
-    width: 100%;
-    float: left;
-    margin-top: 30px;
-    margin-bottom: 30px;
-  }
-
-.info .info-row{
-   height: 300px;
-  }
-
-.desc{
-    height:60%;
-  }
-
 .nav > li > a{
   margin-left: 0;
   margin-right: 40px;
@@ -29,42 +14,18 @@ nav {
   font-weight: bold; 
 }
 
+.logo{
+  width:90%;
+}
+
 @media (max-width: 767px) {
-  .desc{
-      height:60%;
-    }
-  .desc h4{
-      font-size: 1em;
-    }
-  .desc p{
-      font-size: 0.8em;
-    }
   .nav > li > a{
       margin-right: 0px;
       font-weight: bold;
     }
+  .logo{
+      width:70%;
+    }
   }
   
-.icon{
-    margin-top: 10px;
-    height: 30%;
-  }
 
-.icon img{
-    height: 100%;
-    width: auto;
-  }
-
-.info-item{ 
-    float: left;
-    width: 25%;
-    height: 100%;
-    padding: 25px 0;
-    text-align: center;
-    background-color: #eee;
-  }   
-
-.bg-blue{
-    background-color: #164f7efa;
-    color: #fff;
-  }

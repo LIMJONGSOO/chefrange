@@ -13,7 +13,7 @@ const Header = ({onClick, corpCls, rangeCls, contactCls}) => (
             <span className="icon-bar"></span>
         </button>
         <a className="navbar-brand margin10" href="#" onClick={() => onClick('main')}>
-            <img src={logo } alt="Chefrange"></img>
+            <img className="logo" src={logo } alt="Chefrange"></img>
         </a>
         </div>
         <div id="navbar" className="navbar-collapse collapse">

@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import './css/bootstrap.css';
-import './css/nanumbarungothic.css';
+import './css/nanumgothic.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 

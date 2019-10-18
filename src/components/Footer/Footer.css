@@ -29,6 +29,15 @@
       text-decoration: none;
     }
     
+    .tel{
+      color:black;  
+    }
+
+    .tel:hover{
+      color:black;  
+      text-decoration: none;
+    }
+
     @media (max-width: 767px) {
       .Footer {
         padding: 2em 0  2em 0;
@@ -151,8 +160,20 @@
   .Footer .info {
     font-size: 12px;
     line-height: 1em;
-    margin: 10px 0 0 0;
+    margin: 2px;
     padding: 0;
     text-align: center;
+  }
+
+  .Footer .info li {
+    font-weight: 1000;
+    border-left: solid 1px rgba(255, 255, 255, 0.3);
+    display: block;
+    list-style: none;
+  }
+
+  .info li:before {
+    width: 0px;
+    margin: ;
   }
 }

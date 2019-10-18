@@ -24,8 +24,10 @@ const Footer = () => (
                     <li>Copyright © 2018 ChefRange</li>
                 </ul>
             </div>
-            <div  className="rightAlign">
-                <h3>고객센터 <strong>02-2065-0583</strong></h3>
+            <div className="rightAlign">
+                <a className="tel" href="tel:02-2065-0583">
+                    <h3>고객센터 <strong>02-2065-0583</strong></h3>
+                </a>
                 <ul className="info">
                     <li>평일 9:00-18:00</li>
                     <li>주말.공휴일 제외</li>

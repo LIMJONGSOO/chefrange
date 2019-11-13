@@ -2,10 +2,6 @@
   width:100%;
 }
 
-.backgroundImg{
-  width:100%;
-}
-
 .bg-blue a{
   color : white;
 }
@@ -27,7 +23,11 @@
   height: 100%;
   padding: 25px 0 0 0;
   text-align: center;
-  background-color: #eee;
+  border: 2px solid #eee;
+} 
+
+.info-item a{ 
+  color:black;
 } 
 
 .info-item h4{ 
@@ -39,8 +39,8 @@
   font-size:13px;
 } 
 
-.bg-blue{
-  background-color: #164f7efa;
+.bg-gray{
+  background-color: #eee;
   color: #fff;
 }
 
@@ -56,6 +56,7 @@
 
 .desc{
   height:40%;
+  color: black;
 }
 
 @media (max-width: 767px) {
@@ -79,11 +80,18 @@
       height: 100%;
       padding: 10px 0 0 0;
       text-align: center;
-      background-color: #eee;
+      border: 2px solid #eee;
     }
     
-  .bg-blue{
-      background-color: #164f7efa;
+  .bg-gray{
+      background-color: #eee;
       color: #fff;
     }
+
+  .backgroundImg{
+      height: 150px;
+      width: auto;
+      float: right;
+    }
+    
   }

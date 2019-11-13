@@ -13,7 +13,8 @@ class Body extends Component {
         subMenuId : '',
         corpCls: '',
         rangeCls: 'dropdown',
-        contactCls: ''
+        contactCls: '',
+        downMenuCls : 'down-menu'
     };
   }
 
@@ -76,7 +77,7 @@ class Body extends Component {
 
 
   handleMenuClick = (menuId, subMenuId) => {
-    let corpCls, rangeCls, contactCls ;
+    let corpCls, rangeCls, contactCls;
 
     if(menuId==='corpInfo'){
         corpCls = 'active';
@@ -97,16 +98,29 @@ class Body extends Component {
     }
 
     this.setState({
-        menuId,
-        subMenuId,
-        corpCls,
-        rangeCls,
-        contactCls
+        menuId : menuId,
+        subMenuId : subMenuId,
+        corpCls : corpCls,
+        rangeCls : rangeCls,
+        contactCls : contactCls,
+        downMenuCls: 'down-menu'
+    });
+  }
+
+  handlerOver = (downMenuCls) => {
+    this.setState({
+        downMenuCls: downMenuCls
+    });
+  }
+
+  handlerOut = (downMenuCls) => {
+    this.setState({
+        downMenuCls: downMenuCls
     });
   }
 
   render() {
-    const {menuId, subMenuId, corpCls, rangeCls, contactCls} = this.state;
+    const {menuId, subMenuId, corpCls, rangeCls, contactCls, downMenuCls} = this.state;
 
     return (
       <div>
@@ -116,6 +130,9 @@ class Body extends Component {
             corpCls={corpCls}
             rangeCls={rangeCls}
             contactCls={contactCls}
+            downMenuCls={downMenuCls}
+            handlerOver={this.handlerOver}
+            handlerOut={this.handlerOut}
         />
         <Container 
             onClick={this.handleMenuClick}

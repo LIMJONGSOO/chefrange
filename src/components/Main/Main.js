@@ -26,7 +26,7 @@ const Main = ({onClick}) => (
               </div>
             </a>
           </div>
-          <div className="info-item bg-blue">
+          <div className="info-item bg-gray">
             <a href="#" onClick={() => onClick('contactInfo','faq')}>
               <div className="icon">
                 <img src={imgQuestion} alt=""></img>
@@ -54,7 +54,7 @@ const Main = ({onClick}) => (
               </div>
             </a>
           </div>
-          <div className="info-item bg-blue">
+          <div className="info-item bg-gray">
             <a href="#" onClick={() => onClick('contactInfo','customer')} className="gray">
              <div className="icon">
                 <img src={imgCustomer} alt=""></img>

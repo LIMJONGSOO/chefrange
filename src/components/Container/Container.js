@@ -3,13 +3,14 @@ import { Main } from '../../components';
 import { CorpInfo } from '../../components';
 import { RangeInfo } from '../../components';
 import { ContactInfo } from '../../components';
+import './Container.css';
 
 class Container extends Component {
     
   render() {
-      if(this.props.menuId==='corpInfo') return <CorpInfo onClick={this.props.onClick} subMenuId={this.props.subMenuId}/>;
-      if(this.props.menuId==='rangeInfo') return <RangeInfo onClick={this.props.onClick} subMenuId={this.props.subMenuId}/>;
-      if(this.props.menuId==='contactInfo') return <ContactInfo onClick={this.props.onClick} subMenuId={this.props.subMenuId}/>;
+      if(this.props.menuId==='corpInfo') return <div className="container"><CorpInfo onClick={this.props.onClick} subMenuId={this.props.subMenuId}/></div>;
+      if(this.props.menuId==='rangeInfo') return <div className="container"><RangeInfo onClick={this.props.onClick} subMenuId={this.props.subMenuId}/></div>;
+      if(this.props.menuId==='contactInfo') return <div className="container"><ContactInfo onClick={this.props.onClick} subMenuId={this.props.subMenuId}/></div>;
       return (
         <Main onClick={this.props.onClick}/>
       );

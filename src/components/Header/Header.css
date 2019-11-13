@@ -18,6 +18,50 @@ nav {
   width:90%;
 }
 
+.down-menu{
+  width: 100%;
+  left:0px;
+  top:100px;
+  padding: 10px;
+  position: absolute;
+  align-items: center;
+  background: white;
+  text-align: center;
+  display:none;
+  border-bottom: 2px solid #e7e7e7;
+  transition: visibility 0s linear 0.33s, opacity 0.33s linear;
+}
+
+.down-menu-show{
+  display: block;
+  opacity: 1;
+  transition-delay: 0s;
+}
+
+.down-menu ul{
+  float: right;
+  padding-left: 10px;
+  margin-right: 60px;
+  text-align: left;
+}
+
+.down-menu ul li{
+  margin-bottom: 5px;
+  font-size: 14px;
+  color: #777;
+  font-weight: 900;
+}
+
+.down-menu a{
+  font-size: 13px;
+  color: #777;
+  font-weight: 800;
+}
+
+.down-menu .submenu{
+  padding-left: 20px;
+}
+
 @media (max-width: 767px) {
   .nav > li > a{
       margin-right: 0px;
@@ -26,6 +70,10 @@ nav {
   .logo{
       width:70%;
     }
+
+  .down-menu-show{
+    display: none;
   }
+}
   
 

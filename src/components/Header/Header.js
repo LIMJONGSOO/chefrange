@@ -22,7 +22,7 @@ const Header = ({onClick, corpCls, rangeCls, contactCls, downMenuCls, handlerOve
                 <li className={rangeCls}><a href="#" onClick={() => onClick('rangeInfo','HTS805')}>전기레인지</a></li>
                 <li className={contactCls}><a href="#contact" onClick={() => onClick('contactInfo')}>고객지원</a></li>
                 <div className={downMenuCls}>
-                    <div>
+                    <div className="container">
                         <ul>
                             <li><a href="#"  onClick={() => onClick('contactInfo','built')}>설치사례</a></li>
                             <li><a href="#"  onClick={() => onClick('contactInfo','faq')}>자주 묻는 질문</a></li>

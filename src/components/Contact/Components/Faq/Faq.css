@@ -1,0 +1,34 @@
+.panel-heading a{
+    text-decoration:none !important;
+    width: 100%;
+}
+
+.panel-collapse b{
+    line-height: 1.5em;
+}
+
+.panel-group{
+    color: black;
+    font-weight: bolder;
+    text-align: left;
+}
+
+.panel-group a h4{
+    color: black;
+    font-size: 20px;
+    font-weight: bolder;
+    text-align: left;
+}
+
+.tableCls{
+    width:100%;
+    border: 1px solid #444444;
+    border-collapse: collapse;
+}
+
+ th, td {
+    border: 1px solid #444444;
+    text-align: center;
+}
+
+

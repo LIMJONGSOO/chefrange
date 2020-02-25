@@ -1,0 +1,99 @@
+.builtInfo{
+    width: 100%;
+    float: left;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+.builtInfo .builtInfo-item{ 
+    float: left;
+    width: 30%;
+    height: 500px;
+    padding: 25px 0;
+    text-align: center;
+    background-color: #eee;
+    margin-right: 5%;
+    margin-bottom: 30px;
+  } 
+
+.builtInfo .builtInfo-item:last-child{
+    margin-right: 0;
+}
+
+@media (max-width: 768px) {
+    .builtInfo{
+        width: 100%;
+        float: left;
+        margin-top: 30px;
+        margin-bottom: 30px;
+      }
+    
+    .builtInfo .builtInfo-item{ 
+        float: left;
+        width: 47%;
+        height: 500px;
+        padding: 25px 0;
+        text-align: center;
+        background-color: #eee;
+        margin-right: 3%;
+        margin-bottom: 30px;
+      } 
+}
+
+@media (max-width: 767px) {
+    .builtInfo{
+        width: 100%;
+        float: left;
+        margin-top: 30px;
+        margin-bottom: 30px;
+      }
+    
+    .builtInfo .builtInfo-item{ 
+        float: left;
+        width: 100%;
+        height: 500px;
+        padding: 25px 0;
+        text-align: center;
+        background-color: #eee;
+        margin-bottom: 30px;
+      } 
+    
+    .builtInfo .builtInfo-item:last-child{
+        margin-right: 0;
+    }
+}
+
+.panel-heading a{
+    text-decoration:none !important;
+    width: 100%;
+}
+
+.panel-collapse b{
+    line-height: 1.5em;
+}
+
+.panel-group{
+    color: black;
+    font-weight: bolder;
+    text-align: left;
+}
+
+.panel-group a h4{
+    color: black;
+    font-size: 20px;
+    font-weight: bolder;
+    text-align: left;
+}
+
+.tableCls{
+    width:100%;
+    border: 1px solid #444444;
+    border-collapse: collapse;
+}
+
+ th, td {
+    border: 1px solid #444444;
+    text-align: center;
+}
+
+

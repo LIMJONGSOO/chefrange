@@ -5,6 +5,7 @@ import imgFind from '../../images/icon-find.png';
 import imgQuestion from '../../images/icon-question.png';
 import imgService from '../../images/icon-service.png';
 import imgCustomer from '../../images/icon-customer.png';
+import { Link } from "react-router-dom";
 
 const Main = ({onClick}) => (
   <div>
@@ -13,7 +14,7 @@ const Main = ({onClick}) => (
       <div className="info">
         <div className="info-row">
           <div className="info-item">
-            <a href="#" onClick={() => onClick('contactInfo','built')}>
+            <Link to="/contact/built">
               <div className="icon">
                 <img src={imgFind} alt=""></img>
               </div>
@@ -24,10 +25,10 @@ const Main = ({onClick}) => (
                   미리 확인해보세요
                 </p>
               </div>
-            </a>
+            </Link>
           </div>
           <div className="info-item bg-gray">
-            <a href="#" onClick={() => onClick('contactInfo','faq')}>
+            <Link to="/contact/faq">
               <div className="icon">
                 <img src={imgQuestion} alt=""></img>
               </div>
@@ -38,10 +39,10 @@ const Main = ({onClick}) => (
                   빠르게 해결하실 수 있습니다
                 </p>
               </div>
-            </a>
+            </Link>
           </div>
           <div className="info-item">
-            <a href="#" onClick={() => onClick('contactInfo','service')}>
+            <Link to="/contact/service">
               <div className="icon">
                 <img src={imgService} alt=""></img>
               </div>
@@ -52,10 +53,10 @@ const Main = ({onClick}) => (
                   최대한 신속하게 처리해드립니다
                 </p>
               </div>
-            </a>
+            </Link>
           </div>
           <div className="info-item bg-gray">
-            <a href="#" onClick={() => onClick('contactInfo','customer')} className="gray">
+            <Link to="/contact/customer">
              <div className="icon">
                 <img src={imgCustomer} alt=""></img>
               </div>
@@ -66,7 +67,7 @@ const Main = ({onClick}) => (
                   항상 귀를 기울이고 있습니다
                 </p>
               </div>
-            </a>
+            </Link>
           </div>
         </div>
       </div>

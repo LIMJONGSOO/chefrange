@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/chefrange/static/css/main.8cba4701.chunk.css",
+    "main.js": "/chefrange/static/js/main.bf2d7753.chunk.js",
+    "main.js.map": "/chefrange/static/js/main.bf2d7753.chunk.js.map",
+    "runtime-main.js": "/chefrange/static/js/runtime-main.4bb27834.js",
+    "runtime-main.js.map": "/chefrange/static/js/runtime-main.4bb27834.js.map",
+    "static/js/2.9c1e2ce6.chunk.js": "/chefrange/static/js/2.9c1e2ce6.chunk.js",
+    "static/js/2.9c1e2ce6.chunk.js.map": "/chefrange/static/js/2.9c1e2ce6.chunk.js.map",
+    "index.html": "/chefrange/index.html",
+    "precache-manifest.8bc41425bfaa64ca454fbd74742dbddb.js": "/chefrange/precache-manifest.8bc41425bfaa64ca454fbd74742dbddb.js",
+    "service-worker.js": "/chefrange/service-worker.js",
+    "static/css/main.8cba4701.chunk.css.map": "/chefrange/static/css/main.8cba4701.chunk.css.map",
+    "static/js/2.9c1e2ce6.chunk.js.LICENSE.txt": "/chefrange/static/js/2.9c1e2ce6.chunk.js.LICENSE.txt",
+    "static/media/HTS801.jpg": "/chefrange/static/media/HTS801.7f80256f.jpg",
+    "static/media/nanumgothic.css": "/chefrange/static/media/NanumGothic-Regular.bc9d2153.eot",
+    "static/media/chef-img01.jpg": "/chefrange/static/media/chef-img01.87276570.jpg",
+    "static/media/chef_built.jpg": "/chefrange/static/media/chef_built.8b29dfb4.jpg",
+    "static/media/chef_ceo.jpg": "/chefrange/static/media/chef_ceo.ab977db8.jpg",
+    "static/media/chef_company.jpg": "/chefrange/static/media/chef_company.025bb254.jpg",
+    "static/media/icon-customer.png": "/chefrange/static/media/icon-customer.5110f708.png",
+    "static/media/icon-find.png": "/chefrange/static/media/icon-find.b26c9030.png",
+    "static/media/icon-question.png": "/chefrange/static/media/icon-question.6bf37ffd.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4bb27834.js",
+    "static/js/2.9c1e2ce6.chunk.js",
+    "static/css/main.8cba4701.chunk.css",
+    "static/js/main.bf2d7753.chunk.js"
+  ]
+}

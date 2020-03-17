@@ -11,9 +11,10 @@ export default () => (
   <Router>
     <Header/>
     <Route exact path="/" component={Main} />
-    <Route path="/corp" component={CorpRoutes} />
-    <Route path="/range" component={RangeRoutes} />
-    <Route path="/contact" component={ContactRoutes} />
+    <Route exact path="/chefrange" component={Main} />
+    <Route path="/chefrange/corp" component={CorpRoutes} />
+    <Route path="/chefrange/range" component={RangeRoutes} />
+    <Route path="/chefrange/contact" component={ContactRoutes} />
     <Footer/>
   </Router>
 )

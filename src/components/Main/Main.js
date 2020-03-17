@@ -14,7 +14,7 @@ const Main = ({onClick}) => (
       <div className="info">
         <div className="info-row">
           <div className="info-item">
-            <Link to="/contact/built">
+            <Link to="/chefrange/contact/built">
               <div className="icon">
                 <img src={imgFind} alt=""></img>
               </div>
@@ -28,7 +28,7 @@ const Main = ({onClick}) => (
             </Link>
           </div>
           <div className="info-item bg-gray">
-            <Link to="/contact/faq">
+            <Link to="/chefrange/contact/faq">
               <div className="icon">
                 <img src={imgQuestion} alt=""></img>
               </div>
@@ -42,7 +42,7 @@ const Main = ({onClick}) => (
             </Link>
           </div>
           <div className="info-item">
-            <Link to="/contact/service">
+            <Link to="/chefrange/contact/service">
               <div className="icon">
                 <img src={imgService} alt=""></img>
               </div>
@@ -56,7 +56,7 @@ const Main = ({onClick}) => (
             </Link>
           </div>
           <div className="info-item bg-gray">
-            <Link to="/contact/customer">
+            <Link to="/chefrange/contact/customer">
              <div className="icon">
                 <img src={imgCustomer} alt=""></img>
               </div>

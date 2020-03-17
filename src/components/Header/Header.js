@@ -47,38 +47,38 @@ class Header extends Component {
                         <span className="icon-bar"></span>
                         <span className="icon-bar"></span>
                     </button>
-                    <Link to="/" onClick={() => this.handleMenuClick()} className="navbar-brand margin10">
+                    <Link to="/chefrange" onClick={() => this.handleMenuClick()} className="navbar-brand margin10">
                         <img className="logo" src={logo } alt="Chefrange"></img>
                     </Link>
                 </div>
                 <div id="navbar" className="navbar-collapse collapse" onMouseOver={() =>{ this.handlerOver('down-menu down-menu-show');}} onMouseOut={() => { this.handlerOut('down-menu'); }}>
                     <ul className="nav navbar-nav">
-                        <li><Link to="/corp/about" onClick={() => this.handleMenuClick()}>회사소개</Link></li>
-                        <li><Link to="/range/HTS801" onClick={() => this.handleMenuClick()}>전기레인지</Link></li>
-                        <li><Link to="/contact/built" onClick={() => this.handleMenuClick()}>고객지원</Link></li>
+                        <li><Link to="/chefrange/corp/about" onClick={() => this.handleMenuClick()}>회사소개</Link></li>
+                        <li><Link to="/chefrange/range/HTS801" onClick={() => this.handleMenuClick()}>전기레인지</Link></li>
+                        <li><Link to="/chefrange/contact/built" onClick={() => this.handleMenuClick()}>고객지원</Link></li>
                         <div className={downMenuCls}>
                             <div className="container">
                                 <div className="down-menu-list">
                                     <ul className="down-menu-ul">
-                                        <li><Link to="/corp/about" onClick={() => this.handleMenuClick()}>회사소개</Link></li>
-                                        <li><Link to="/corp/ceomsg" onClick={() => this.handleMenuClick()}>대표인사말</Link></li>
-                                        <li><Link to="/corp/location" onClick={() => this.handleMenuClick()}>찾아오시는 길</Link></li>
+                                        <li><Link to="/chefrange/corp/about" onClick={() => this.handleMenuClick()}>회사소개</Link></li>
+                                        <li><Link to="/chefrange/corp/ceomsg" onClick={() => this.handleMenuClick()}>대표인사말</Link></li>
+                                        <li><Link to="/chefrange/corp/location" onClick={() => this.handleMenuClick()}>찾아오시는 길</Link></li>
                                     </ul>
                                     <ul className="down-menu-ul">
                                         <li>3구 전기레인지</li>
-                                        <li className="submenu"><Link to="/range/HTS805" onClick={() => this.handleMenuClick()}>HTS805</Link></li>
-                                        <li className="submenu"><Link to="/range/HTS804" onClick={() => this.handleMenuClick()}>HTS804</Link></li>
-                                        <li className="submenu"><Link to="/range/HTS803" onClick={() => this.handleMenuClick()}>HTS803</Link></li>
+                                        <li className="submenu"><Link to="/chefrange/range/HTS805" onClick={() => this.handleMenuClick()}>HTS805</Link></li>
+                                        <li className="submenu"><Link to="/chefrange/range/HTS804" onClick={() => this.handleMenuClick()}>HTS804</Link></li>
+                                        <li className="submenu"><Link to="/chefrange/range/HTS803" onClick={() => this.handleMenuClick()}>HTS803</Link></li>
                                         <li>2구 전기레인지</li>
-                                        <li className="submenu"><Link to="/range/HTS802" onClick={() => this.handleMenuClick()}>HTS802</Link></li>
+                                        <li className="submenu"><Link to="/chefrange/range/HTS802" onClick={() => this.handleMenuClick()}>HTS802</Link></li>
                                         <li>1구 전기레인지</li>
-                                        <li className="submenu"><Link to="/range/HTS801" onClick={() => this.handleMenuClick()}>HTS801</Link></li>
+                                        <li className="submenu"><Link to="/chefrange/range/HTS801" onClick={() => this.handleMenuClick()}>HTS801</Link></li>
                                     </ul>
                                     <ul className="down-menu-ul">
-                                        <li><Link to="/contact/built" onClick={() => this.handleMenuClick()}>설치사례</Link></li>
-                                        <li><Link to="/contact/faq" onClick={() => this.handleMenuClick()}>자주 묻는 질문</Link></li>
-                                        <li><Link to="/contact/service" onClick={() => this.handleMenuClick()}>이용안내</Link></li>
-                                        <li><Link to="/contact/customer" onClick={() => this.handleMenuClick()}>고객의 소리</Link></li>
+                                        <li><Link to="/chefrange/contact/built" onClick={() => this.handleMenuClick()}>설치사례</Link></li>
+                                        <li><Link to="/chefrange/contact/faq" onClick={() => this.handleMenuClick()}>자주 묻는 질문</Link></li>
+                                        <li><Link to="/chefrange/contact/service" onClick={() => this.handleMenuClick()}>이용안내</Link></li>
+                                        <li><Link to="/chefrange/contact/customer" onClick={() => this.handleMenuClick()}>고객의 소리</Link></li>
                                     </ul>
                                 </div>
                             </div>

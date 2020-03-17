@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/chefrange/static/css/main.8cba4701.chunk.css",
-    "main.js": "/chefrange/static/js/main.bf2d7753.chunk.js",
-    "main.js.map": "/chefrange/static/js/main.bf2d7753.chunk.js.map",
+    "main.js": "/chefrange/static/js/main.5426cb16.chunk.js",
+    "main.js.map": "/chefrange/static/js/main.5426cb16.chunk.js.map",
     "runtime-main.js": "/chefrange/static/js/runtime-main.4bb27834.js",
     "runtime-main.js.map": "/chefrange/static/js/runtime-main.4bb27834.js.map",
     "static/js/2.9c1e2ce6.chunk.js": "/chefrange/static/js/2.9c1e2ce6.chunk.js",
     "static/js/2.9c1e2ce6.chunk.js.map": "/chefrange/static/js/2.9c1e2ce6.chunk.js.map",
     "index.html": "/chefrange/index.html",
-    "precache-manifest.8bc41425bfaa64ca454fbd74742dbddb.js": "/chefrange/precache-manifest.8bc41425bfaa64ca454fbd74742dbddb.js",
+    "precache-manifest.feabd7a3d2910dafe210d3a71055edf6.js": "/chefrange/precache-manifest.feabd7a3d2910dafe210d3a71055edf6.js",
     "service-worker.js": "/chefrange/service-worker.js",
     "static/css/main.8cba4701.chunk.css.map": "/chefrange/static/css/main.8cba4701.chunk.css.map",
     "static/js/2.9c1e2ce6.chunk.js.LICENSE.txt": "/chefrange/static/js/2.9c1e2ce6.chunk.js.LICENSE.txt",
@@ -26,6 +26,6 @@
     "static/js/runtime-main.4bb27834.js",
     "static/js/2.9c1e2ce6.chunk.js",
     "static/css/main.8cba4701.chunk.css",
-    "static/js/main.bf2d7753.chunk.js"
+    "static/js/main.5426cb16.chunk.js"
   ]
 }

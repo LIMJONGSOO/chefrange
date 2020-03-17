@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "fe9a0c1d22460d5c075ceda1e580c74a",
+    "revision": "e365992afe513223e483e75796ad4904",
     "url": "/chefrange/index.html"
   },
   {
-    "revision": "a0e18a704ec0257922f6",
+    "revision": "a44cd7cbaf32779755ca",
     "url": "/chefrange/static/css/main.8cba4701.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/chefrange/static/js/2.9c1e2ce6.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "a0e18a704ec0257922f6",
-    "url": "/chefrange/static/js/main.bf2d7753.chunk.js"
+    "revision": "a44cd7cbaf32779755ca",
+    "url": "/chefrange/static/js/main.5426cb16.chunk.js"
   },
   {
     "revision": "1306025fde422c49ad94",
